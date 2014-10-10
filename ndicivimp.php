@@ -293,22 +293,22 @@ ndicivimp_add_default_dashboard($contactID);
   return array(
  //'<h2>Welcome</h2>' => "<p>Welcome to your CiviCRM Dashboard<p>",
 
-                  '<h2>'.ts("Contacts").'</h2>' =>
+                  '<h2>'.ts("Contacts",array('domain' => 'org.ndi.civimp')).'</h2>' =>
                     "<p>
-                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-primary\">".ts('Create New Individual')."</button></a>
-                    <a href='".$browseContacts."'><button type=\"button\" class=\"btn btn-primary\">".ts('Browse Contacts')."</button></a>
-                   <a href='".$manageGroupLink."'><button type=\"button\" class=\"btn btn-primary\">".ts('Manage Groups')."</button></a>
-                    <a href='".$viewAllReports."'><button type=\"button\" class=\"btn btn-primary\">".ts('View All Reports')."</button></a>
-                    <a href='".$sendMailing."'><button type=\"button\" class=\"btn btn-primary\">".ts('Send Mailing')."</button></a>
+                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-primary\">".ts('Create New Individual',array('domain' => 'org.ndi.civimp'))."</button></a>
+                    <a href='".$browseContacts."'><button type=\"button\" class=\"btn btn-primary\">".ts('Browse Contacts',array('domain' => 'org.ndi.civimp'))."</button></a>
+                   <a href='".$manageGroupLink."'><button type=\"button\" class=\"btn btn-primary\">".ts('Manage Groups',array('domain' => 'org.ndi.civimp'))."</button></a>
+                    <a href='".$viewAllReports."'><button type=\"button\" class=\"btn btn-primary\">".ts('View All Reports',array('domain' => 'org.ndi.civimp'))."</button></a>
+                    <a href='".$sendMailing."'><button type=\"button\" class=\"btn btn-primary\">".ts('Send Mailing',array('domain' => 'org.ndi.civimp'))."</button></a>
                     </p>
                   ",
-                  '<h2>'.ts("Events").'</h2>' =>
+                  '<h2>'.ts("Events",array('domain' => 'org.ndi.civimp')).'</h2>' =>
                     "<p>
-                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-success\">".ts('Organize Event')."</button></a>
-                    <a href='".$manageEvents."'><button type=\"button\" class=\"btn btn-success\">".ts('All Events')."</button></a>
-                   <a href='".$searchParticipants."'><button type=\"button\" class=\"btn btn-success\">".ts('Search Participants')."</button></a>
-                    <a href='".$registerParticipant."'><button type=\"button\" class=\"btn btn-success\">".ts('Register Participant')."</button></a>
-                      <a href='".$scheduleReminder."'><button type=\"button\" class=\"btn btn-success\">".ts('Schedule Reminder')."</button></a>
+                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-success\">".ts('Organize Event',array('domain' => 'org.ndi.civimp'))."</button></a>
+                    <a href='".$manageEvents."'><button type=\"button\" class=\"btn btn-success\">".ts('All Events',array('domain' => 'org.ndi.civimp'))."</button></a>
+                   <a href='".$searchParticipants."'><button type=\"button\" class=\"btn btn-success\">".ts('Search Participants',array('domain' => 'org.ndi.civimp'))."</button></a>
+                    <a href='".$registerParticipant."'><button type=\"button\" class=\"btn btn-success\">".ts('Register Participant',array('domain' => 'org.ndi.civimp'))."</button></a>
+                      <a href='".$scheduleReminder."'><button type=\"button\" class=\"btn btn-success\">".ts('Schedule Reminder',array('domain' => 'org.ndi.civimp'))."</button></a>
                   </p>
                   ",
     );
@@ -451,7 +451,7 @@ function ndicivimp_civicrm_managed(&$entities) {
       'version' => 3,
     "domain_id" => "1",
     "name" => "contact_per_month",
-    "label" => "Recently Added",
+    "label" => ts("Recently Added"),
     "url" => "civicrm/dashlets/contactpermonth?snippet=1",
     "column_no" => "0",
     "is_minimized" => "0",
