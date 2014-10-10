@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="org.ndi.civimp" type="module">
+  <file>ndicivimp</file>
+  <name>DemTools CiviMP Package</name>
+  <description>A CiviCRM extension that creates locality-based access control, an improved dashboard, and vastly simplifies CiviCRM.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Chris Doten</author>
+    <email>cdoten@ndi.org</email>
+  </maintainer>
+  <releaseDate>2014-09-30</releaseDate>
+  <version>1.0</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments>For locality-based access control at the county level, enable the US County loader extension or manually load counties.</comments>
+  <civix>
+    <namespace>CRM/Ndicivimp</namespace>
+  </civix>
+</extension>
