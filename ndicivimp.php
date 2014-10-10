@@ -235,7 +235,7 @@ function ndicivimp_civicrm_uninstall() {
 function ndicivimp_civicrm_pageRun(&$page ) {
 $pageName = $page->getVar('_name');
   if ($pageName == 'CRM_Case_Page_DashBoard') { 
-    CRM_Core_Resources::singleton()->addStyleFile('org.ndi.civimp', 'css/ndicivimp.css');
+//    CRM_Core_Resources::singleton()->addStyleFile('org.ndi.civimp', 'css/ndicivimp.css');
 }
 /*  if ($pageName == 'CRM_Case_Page_DashBoard') {
     CRM_Core_Resources::singleton()->addStyleFile('org.ndi.civimp', 'css/bootstrap.min.css');
