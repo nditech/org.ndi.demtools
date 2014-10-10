@@ -1,0 +1,39 @@
+/*BEGIN CSS FOR EXTENSION*/
+
+/*Home and case dashboard table fixes*/
+tr.crm-case-caseStatus>td, #case_dashboard_dashlet .report td {
+	display:table-cell;
+	color:#999;
+}
+/*Case dashboard radio buttons*/
+#crm-container div.crm-case-dashboard-buttons:after {
+	display:table;
+	content:'';
+	clear:both;
+}
+#crm-container div.crm-case-dashboard-buttons {
+	height:auto;
+	margin-bottom:1em;
+}
+.crm-case-dashboard-switch-view-buttons > div {
+	display:inline-block;
+	margin-left:5px;
+}
+.crm-case-dashboard-switch-view-buttons input {
+	display:inline;
+	vertical-align:middle;
+}
+.crm-case-dashboard-switch-view-buttons span {
+	display:inline-block;
+	margin-left:5px;
+	vertical-align:middle;
+}
+/*Case summary table*/
+#crm-container .case-summary td {
+	display:table-cell;
+	padding:10px 5px;
+}
+#crm-container .contact_basic_information-section.narrowform table.form-layout-compressed td label {
+	width:33%;
+}
+/*END CSS FOR EXTENSION*/

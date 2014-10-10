@@ -232,9 +232,14 @@ function ndicivimp_civicrm_uninstall() {
 /**
  * Implementation of hook_civicrm_pageRun
  */
-function ndicivimp_civicrm_pageRun() {
+function ndicivimp_civicrm_pageRun(&$page ) {
+$pageName = $page->getVar('_name');
+  if ($pageName == 'CRM_Case_Page_DashBoard') { 
+    CRM_Core_Resources::singleton()->addStyleFile('org.ndi.civimp', 'css/ndicivimp.css');
+}
     CRM_Core_Resources::singleton()->addStyleFile('org.ndi.civimp', 'css/bootstrap.min.css');
     CRM_Core_Resources::singleton()->addStyleUrl('http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
+
 }
 
 /**
