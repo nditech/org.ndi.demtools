@@ -1,0 +1,35 @@
+#: ndicivimp.php
+msgid "NDI CiviCRM County-State Permissions"
+msgstr ""
+
+#: ndicivimp.php
+msgid "view all contacts who live in your county"
+msgstr ""
+
+#: ndicivimp.php
+msgid "edit all contacts who live in your county"
+msgstr ""
+
+#: ndicivimp.php
+msgid "delete all contacts who live in your county"
+msgstr ""
+
+#: ndicivimp.php
+msgid "view all contacts who live in your state"
+msgstr ""
+
+#: ndicivimp.php
+msgid "edit all contacts who live in your state"
+msgstr ""
+
+#: ndicivimp.php
+msgid "delete all contacts who live in your state"
+msgstr ""
+
+#: templates/CRM/Ndicivimp/Page/ContactPerMonth.tpl
+msgid "New Contacts by Month"
+msgstr "Nuevos Contactos por Mes"
+
+#: ndicivimp.php
+msgid "Contacts"
+msgstr ""

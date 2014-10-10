@@ -293,22 +293,22 @@ ndicivimp_add_default_dashboard($contactID);
   return array(
  //'<h2>Welcome</h2>' => "<p>Welcome to your CiviCRM Dashboard<p>",
 
-                  '<h2>Contacts</h2>' =>
+                  '<h2>'.ts("Contacts").'</h2>' =>
                     "<p>
-                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-primary\">Create New Individual</button></a>
-                    <a href='".$browseContacts."'><button type=\"button\" class=\"btn btn-primary\">Browse Contacts</button></a>
-                   <a href='".$manageGroupLink."'><button type=\"button\" class=\"btn btn-primary\">Manage Groups</button></a>
-                    <a href='".$viewAllReports."'><button type=\"button\" class=\"btn btn-primary\">View All Reports</button></a>
-                    <a href='".$sendMailing."'><button type=\"button\" class=\"btn btn-primary\">Send Mailing</button></a>
+                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-primary\">".ts('Create New Individual')."</button></a>
+                    <a href='".$browseContacts."'><button type=\"button\" class=\"btn btn-primary\">".ts('Browse Contacts')."</button></a>
+                   <a href='".$manageGroupLink."'><button type=\"button\" class=\"btn btn-primary\">".ts('Manage Groups')."</button></a>
+                    <a href='".$viewAllReports."'><button type=\"button\" class=\"btn btn-primary\">".ts('View All Reports')."</button></a>
+                    <a href='".$sendMailing."'><button type=\"button\" class=\"btn btn-primary\">".ts('Send Mailing')."</button></a>
                     </p>
                   ",
-                  '<h2>Events</h2>' =>
+                  '<h2>'.ts("Events").'</h2>' =>
                     "<p>
-                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-success\">Organize Event</button></a>
-                    <a href='".$manageEvents."'><button type=\"button\" class=\"btn btn-success\">All Events</button></a>
-                   <a href='".$searchParticipants."'><button type=\"button\" class=\"btn btn-success\">Search Participants</button></a>
-                    <a href='".$registerParticipant."'><button type=\"button\" class=\"btn btn-success\">Register Participant</button></a>
-                      <a href='".$scheduleReminder."'><button type=\"button\" class=\"btn btn-success\">Schedule Reminder</button></a>
+                    <a href='".$newIndLink."'><button type=\"button\" class=\"btn btn-success\">".ts('Organize Event')."</button></a>
+                    <a href='".$manageEvents."'><button type=\"button\" class=\"btn btn-success\">".ts('All Events')."</button></a>
+                   <a href='".$searchParticipants."'><button type=\"button\" class=\"btn btn-success\">".ts('Search Participants')."</button></a>
+                    <a href='".$registerParticipant."'><button type=\"button\" class=\"btn btn-success\">".ts('Register Participant')."</button></a>
+                      <a href='".$scheduleReminder."'><button type=\"button\" class=\"btn btn-success\">".ts('Schedule Reminder')."</button></a>
                   </p>
                   ",
     );
