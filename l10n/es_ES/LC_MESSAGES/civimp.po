@@ -1,3 +1,15 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2014-10-10 21:11+0000\n"
+"Last-Translator: root <cdoten@ndi.org>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: ndicivimp.php
 msgid "NDI CiviCRM County-State Permissions"
 msgstr ""

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<extension key="org.ndi.civimp" type="module">
+<extension key="org.ndi.ndicivimp" type="module">
   <file>ndicivimp</file>
   <name>DemTools CiviMP Package</name>
   <description>A CiviCRM extension that creates locality-based access control, an improved dashboard, and vastly simplifies CiviCRM.</description>
