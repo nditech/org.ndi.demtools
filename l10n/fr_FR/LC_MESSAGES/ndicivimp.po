@@ -1,13 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-10-13 17:32+0000\n"
+"PO-Revision-Date: 2014-10-16 21:43+0000\n"
 "Last-Translator: root <cdoten@ndi.org>\n"
-"Language-Team: Arabic\n"
-"Language: ar_EG\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-6\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ndicivimp.php
 msgid "NDI CiviCRM County-State Permissions"
@@ -39,56 +40,56 @@ msgstr ""
 
 #: templates/CRM/Ndicivimp/Page/ContactPerMonth.tpl
 msgid "New Contacts by Month"
-msgstr "ШШШ Ш¬Щ…ЩЉШ ШЩ„ШЩ‚ШШЩЉШ"
+msgstr "Nouveau Contacts par Mois"
 
 #: ndicivimp.php
 msgid "Contacts"
-msgstr "ШЩ„Щ…Щ†ШШШШШ"
+msgstr "Contacts"
 
 #: ndicivimp.php
 msgid "Create New Individual"
-msgstr "ШШ­ЩЉШШ Щ…Щ†ШШШШ"
+msgstr "CrГ©er un Nouvel Individu"
 
 #: ndicivimp.php
 msgid "Browse Contacts"
-msgstr "Ш¬Щ…ЩЉШ ШЩ„Щ…Щ†ШШШШШ"
+msgstr "Parcourir les Contacts"
 
 #: ndicivimp.php
 msgid "Manage Groups"
-msgstr "ШЩ„ШШ­Ш ШЩ† Щ…ШШШЩѓЩЉЩ†"
+msgstr "Gerer un Groupe"
 
 #: ndicivimp.php
 msgid "View All Reports"
-msgstr "ШШШ¬ЩЉЩ„ Щ…ШШШЩѓ"
+msgstr "Voir tout les Rapports"
 
 #: ndicivimp.php
 msgid "Send Mailing"
-msgstr "ШШ­ШЩЉШ Щ…Щ€ШШ ШШШШЩ„ ШЩ†ШЩЉЩ‡"
+msgstr "Envoyer un Courrier"
 
 #: ndicivimp.php
 msgid "Events"
-msgstr ""
+msgstr "EvГ©nements"
 
 #: ndicivimp.php
 msgid "Organize Event"
-msgstr ""
+msgstr "Organiser un EvГ©nement"
 
 #: ndicivimp.php
 msgid "All Events"
-msgstr ""
+msgstr "Tout les EvГ©nements"
 
 #: ndicivimp.php
 msgid "Search Participants"
-msgstr ""
+msgstr "Chercher des Participants"
 
 #: ndicivimp.php
 msgid "Register Participant"
-msgstr ""
+msgstr "Enregistrer des Participants"
 
 #: ndicivimp.php
 msgid "Schedule Reminder"
-msgstr ""
+msgstr "Planifier un Rappel"
 
 #: ndicivimp.php
 msgid "Recently Added"
-msgstr "ШШШШЩ„ ШЩ„ШШЩЉШ"
+msgstr "RГ©cemment AjoutГ©"
