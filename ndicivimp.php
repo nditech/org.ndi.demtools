@@ -176,7 +176,7 @@ function ndicivimp_civicrm_install() {
 $result = civicrm_api3('Setting', 'create', array(
   'address_options' => array("1", "2", "4","5","7","8","9"),
   'address_format' => "{contact.address_name}\\n{contact.street_address}\\n{contact.supplemental_address_1}\\n{contact.city}{, }{contact.state_province}{ }{contact.postal_code}\\n{contact.county}{ }{contact.country}",
-));
+  'dashboardCacheTimeout' => 1));
 
   $sql = 'DROP TABLE IF EXISTS address_permissions';
   $dao = CRM_Core_DAO::executeQuery($sql, CRM_Core_DAO::$_nullArray);
@@ -446,21 +446,20 @@ function ndicivimp_civicrm_managed(&$entities) {
   $label = ts('Recently Added',array('domain' => 'org.ndi.ndicivimp'));
   $entities[] = array(
     'module' => 'org.ndi.ndicivimp',
-    'entity' => 'Dashboard',
     'name' => 'contactpermonth',
+    'entity' => 'Dashboard',
     'params' => array(
       'version' => 3,
     "domain_id" => "1",
     "name" => "contact_per_month",
     "label" => $label,
-    "url" => "civicrm/dashlets/contactpermonth?snippet=1",
+    "url" => "civicrm/dashlets/contactpermonth&snippet=1",
     "column_no" => "0",
     "is_minimized" => "0",
     "is_fullscreen" => "1",
     "is_active" => "1",
     "is_reserved" => "1",
     "weight" => "0"
-
     ),
   );
 
