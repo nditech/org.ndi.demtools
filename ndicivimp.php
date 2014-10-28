@@ -126,7 +126,7 @@ $dashlet = array(
         'is_active' => 1,
         'column_no' => 0,
         'is_minimized' => 0,
-        'is_fullscreen' => 1,
+        'is_fullscreen' => 0,
         'weight' => 0,
       );
 
@@ -443,7 +443,6 @@ function ndicivimp_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
  * is installed, disabled, uninstalled.
  */
 function ndicivimp_civicrm_managed(&$entities) {
-  $label = ts('Recently Added',array('domain' => 'org.ndi.ndicivimp'));
   $entities[] = array(
     'module' => 'org.ndi.ndicivimp',
     'name' => 'contactpermonth',
@@ -452,11 +451,11 @@ function ndicivimp_civicrm_managed(&$entities) {
       'version' => 3,
     "domain_id" => "1",
     "name" => "contact_per_month",
-    "label" => $label,
-    "url" => "civicrm/dashlets/contactpermonth&snippet=1",
+    "label" => "Recently Added",
+    "url" => "civicrm/dashlets/contactpermonth?snippet=1",
     "column_no" => "0",
     "is_minimized" => "0",
-    "is_fullscreen" => "1",
+    "is_fullscreen" => "0",
     "is_active" => "1",
     "is_reserved" => "1",
     "weight" => "0"

@@ -252,7 +252,7 @@ function _ndicivimp_civix_civicrm_caseTypes(&$caseTypes) {
       // throw new CRM_Core_Exception($errorMessage);
     }
     $caseTypes[$name] = array(
-      'module' => 'com.aghstrategies.ndisimplify',
+      'module' => 'org.ndi.ndicivimp',
       'name' => $name,
       'file' => $file,
     );
