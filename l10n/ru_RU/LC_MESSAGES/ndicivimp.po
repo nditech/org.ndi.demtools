@@ -1,0 +1,98 @@
+# 
+# Translators:
+# erenomeron <erenomeron@ndi.org>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviParty DemTool\n"
+"PO-Revision-Date: 2014-12-09 18:47+0000\n"
+"Last-Translator: erenomeron <erenomeron@ndi.org>\n"
+"Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/civiparty-demtool/language/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ndiciviparty.php
+msgid "NDI CiviCRM County-State Permissions"
+msgstr "NDI CiviCRM графства государственные права"
+
+#: ndiciviparty.php
+msgid "view all contacts who live in your county"
+msgstr "просмотреть все контакты, которые живут в вашем округе"
+
+#: ndiciviparty.php
+msgid "edit all contacts who live in your county"
+msgstr "редактировать все контакты, которые живут в вашем округе"
+
+#: ndiciviparty.php
+msgid "delete all contacts who live in your county"
+msgstr "удалить все контакты, которые живут в вашем округе"
+
+#: ndiciviparty.php
+msgid "view all contacts who live in your state"
+msgstr "просмотреть все контакты, которые живут в вашем государстве"
+
+#: ndiciviparty.php
+msgid "edit all contacts who live in your state"
+msgstr "редактировать все контакты, которые живут в вашем государстве"
+
+#: ndiciviparty.php
+msgid "delete all contacts who live in your state"
+msgstr "удалить все контакты, которые живут в вашем государстве"
+
+#: templates/CRM/Ndiciviparty/Page/ContactPerMonth.tpl
+msgid "New Contacts by Month"
+msgstr "Новые Контакты по месяцам"
+
+#: ndiciviparty.php
+msgid "Contacts"
+msgstr "связи"
+
+#: ndiciviparty.php
+msgid "Create New Individual"
+msgstr "Создать новые индивидуальные"
+
+#: ndiciviparty.php
+msgid "Browse Contacts"
+msgstr "Обзор Контакты"
+
+#: ndiciviparty.php
+msgid "Manage Groups"
+msgstr "Управление группами"
+
+#: ndiciviparty.php
+msgid "View All Reports"
+msgstr "Все отчеты"
+
+#: ndiciviparty.php
+msgid "Send Mailing"
+msgstr "Отправить пересылая"
+
+#: ndiciviparty.php
+msgid "Events"
+msgstr "событий"
+
+#: ndiciviparty.php
+msgid "Organize Event"
+msgstr "Организация событие"
+
+#: ndiciviparty.php
+msgid "All Events"
+msgstr "Все события"
+
+#: ndiciviparty.php
+msgid "Search Participants"
+msgstr "Поиск Участники"
+
+#: ndiciviparty.php
+msgid "Register Participant"
+msgstr "Регистрация Участника"
+
+#: ndiciviparty.php
+msgid "Schedule Reminder"
+msgstr "Расписание Напоминание"
+
+#: ndiciviparty.php
+msgid "Recently Added"
+msgstr "Недавно добавленные"
