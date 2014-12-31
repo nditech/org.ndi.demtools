@@ -1,94 +1,96 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-10-13 17:32+0000\n"
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2014-12-11 11:40-0500\n"
 "Last-Translator: root <cdoten@ndi.org>\n"
 "Language-Team: Arabic\n"
 "Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.7.1\n"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "NDI CiviCRM County-State Permissions"
-msgstr ""
+msgstr "NDI CiviCRM مقاطعة للدولة ضوابط"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "view all contacts who live in your county"
-msgstr ""
+msgstr "عرض كل الاتصالات الذين يعيشون في مقاطعتك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "edit all contacts who live in your county"
-msgstr ""
+msgstr "تعديل كافة جهات الاتصال الذين يعيشون في مقاطعتك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "delete all contacts who live in your county"
-msgstr ""
+msgstr "حذف جميع الأسماء الذين يعيشون في مقاطعتك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "view all contacts who live in your state"
-msgstr ""
+msgstr "عرض كل الاتصالات التي تعيش في ولايتك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "edit all contacts who live in your state"
-msgstr ""
+msgstr "تعديل كافة جهات الاتصال الذين يعيشون في ولايتك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "delete all contacts who live in your state"
-msgstr ""
+msgstr "حذف جميع الأسماء الذين يعيشون في ولايتك"
 
-#: templates/CRM/Ndicivimp/Page/ContactPerMonth.tpl
+#: templates/CRM/Ndiciviparty/Page/ContactPerMonth.tpl
 msgid "New Contacts by Month"
 msgstr "عرض جميع التقارير"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Contacts"
 msgstr "المناسبات"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Create New Individual"
 msgstr "إحياء مناسبة"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Browse Contacts"
 msgstr "جميع المناسبات"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Manage Groups"
 msgstr "البحث عن مشاركين"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "View All Reports"
 msgstr "تسجيل مشارك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Send Mailing"
 msgstr "تحديد موعد إرسال تنبيه"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Events"
-msgstr ""
+msgstr "أحداث"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Organize Event"
-msgstr ""
+msgstr "تنظيم الحدث"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "All Events"
-msgstr ""
+msgstr "كل الأحداث"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Search Participants"
-msgstr ""
+msgstr "بحث المشاركون"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Register Participant"
-msgstr ""
+msgstr "تسجيل مشارك"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Schedule Reminder"
-msgstr ""
+msgstr "جدول تذكير"
 
-#: ndicivimp.php
+#: ndiciviparty.php
 msgid "Recently Added"
 msgstr "إرسال البريد"
