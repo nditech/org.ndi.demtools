@@ -272,8 +272,8 @@ ndicivimp_add_default_dashboard($contactID);
   //Communication
   $sendMailing = CRM_Utils_System::url('civicrm/mailing/send', $query = 'reset=1' );
     //CRM_Core_Resources::singleton()->addStyleFile('org.ndi.ndicivimp', 'css/bootstrap.min.css');
-    CRM_Core_Resources::singleton()->addStyleUrl('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
-    CRM_Core_Resources::singleton()->addStyleUrl('http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
+#    CRM_Core_Resources::singleton()->addStyleUrl('http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+#    CRM_Core_Resources::singleton()->addStyleUrl('http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
   //Manage Contacts
   $newIndLink = CRM_Utils_System::url('civicrm/contact/add', $query = 'reset=1&ct=Individual' );
   $browseContacts = CRM_Utils_System::url('civicrm/contact/search', $query = 'reset=1&force=1' );
