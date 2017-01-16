@@ -175,8 +175,7 @@ function ndicivimp_civicrm_install() {
 
 $result = civicrm_api3('Setting', 'create', array(
   'address_options' => array("1", "2", "4","5","7","8","9"),
-  'address_format' => "{contact.address_name}\\n{contact.street_address}\\n{contact.supplemental_address_1}\\n{contact.city}{, }{contact.state_province}{ }{contact.postal_code}\\n{contact.county}{ }{contact.country}",
-  'dashboardCacheTimeout' => 1));
+  'address_format' => "{contact.address_name}\\n{contact.street_address}\\n{contact.supplemental_address_1}\\n{contact.city}{, }{contact.state_province}{ }{contact.postal_code}\\n{contact.county}{ }{contact.country}"));
 
   $sql = 'DROP TABLE IF EXISTS address_permissions';
   $dao = CRM_Core_DAO::executeQuery($sql, CRM_Core_DAO::$_nullArray);
