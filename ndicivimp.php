@@ -378,7 +378,9 @@ $address_options =
             1
           );
 */
-  _ndicivimp_civix_civicrm_config($config);
+  # This function was causing failures during 4.6->4.7 upgrades. See:
+  # https://issues.civicrm.org/jira/browse/CRM-19915
+  #_ndicivimp_civix_civicrm_config($config);
 }
 
 /**
