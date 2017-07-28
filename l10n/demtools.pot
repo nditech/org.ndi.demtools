@@ -1,28 +1,28 @@
-#: ndicivimp.php
+#: demtools.php
 msgid "NDI CiviCRM County-State Permissions"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "view all contacts who live in your county"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "edit all contacts who live in your county"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "delete all contacts who live in your county"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "view all contacts who live in your state"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "edit all contacts who live in your state"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "delete all contacts who live in your state"
 msgstr ""
 
@@ -30,54 +30,54 @@ msgstr ""
 msgid "New Contacts by Month"
 msgstr "عرض جميع التقارير"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Contacts"
 msgstr "المناسبات"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Create New Individual"
 msgstr "إحياء مناسبة"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Browse Contacts"
 msgstr "جميع المناسبات"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Manage Groups"
 msgstr "البحث عن مشاركين"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "View All Reports"
 msgstr "تسجيل مشارك"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Send Mailing"
 msgstr "تحديد موعد إرسال تنبيه"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Events"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Organize Event"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "All Events"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Search Participants"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Register Participant"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Schedule Reminder"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Recently Added"
 msgstr "إرسال البريد"

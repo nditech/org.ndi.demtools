@@ -1,14 +1,14 @@
 [main]
 host = https://www.transifex.com
 
-[civiparty-demtool.civiparty-extensions]
-file_filter = l10n/<lang>/LC_MESSAGES/ndicivimp.po
-source_file = l10n/ndicivimp.pot
+[demtools-demtool.demtools-extensions]
+file_filter = l10n/<lang>/LC_MESSAGES/demtools.po
+source_file = l10n/demtools.pot
 source_lang = en
-trans.ar_EG = l10n/ar_EG/LC_MESSAGES/ndicivimp.po
-trans.es_ES = l10n/es_ES/LC_MESSAGES/ndicivimp.po
-trans.fr_FR = l10n/fr_FR/LC_MESSAGES/ndicivimp.po
-trans.ru_RU = l10n/ru_RU/LC_MESSAGES/ndicivimp.po
-trans.uk_UA = l10n/uk_UA/LC_MESSAGES/ndicivimp.po
+trans.ar_EG = l10n/ar_EG/LC_MESSAGES/demtools.po
+trans.es_ES = l10n/es_ES/LC_MESSAGES/demtools.po
+trans.fr_FR = l10n/fr_FR/LC_MESSAGES/demtools.po
+trans.ru_RU = l10n/ru_RU/LC_MESSAGES/demtools.po
+trans.uk_UA = l10n/uk_UA/LC_MESSAGES/demtools.po
 type = PO
 

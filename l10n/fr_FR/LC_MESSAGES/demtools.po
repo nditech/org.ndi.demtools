@@ -1,95 +1,95 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2014-10-10 21:11+0000\n"
+"PO-Revision-Date: 2014-10-16 21:43+0000\n"
 "Last-Translator: root <cdoten@ndi.org>\n"
-"Language-Team: Spanish\n"
-"Language: es_ES\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "NDI CiviCRM County-State Permissions"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "view all contacts who live in your county"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "edit all contacts who live in your county"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "delete all contacts who live in your county"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "view all contacts who live in your state"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "edit all contacts who live in your state"
 msgstr ""
 
-#: ndicivimp.php
+#: demtools.php
 msgid "delete all contacts who live in your state"
 msgstr ""
 
 #: templates/CRM/Ndicivimp/Page/ContactPerMonth.tpl
 msgid "New Contacts by Month"
-msgstr "Nuevos Contactos por Mes"
+msgstr "Nouveau Contacts par Mois"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Contacts"
-msgstr "Contactos"
+msgstr "Contacts"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Create New Individual"
-msgstr "Crear Nuevo Individual"
+msgstr "Créer un Nouvel Individu"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Browse Contacts"
-msgstr "Navegar Contactos"
+msgstr "Parcourir les Contacts"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Manage Groups"
-msgstr "Gestionar Grupos"
+msgstr "Gerer un Groupe"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "View All Reports"
-msgstr "Ver todos los Reportes"
+msgstr "Voir tout les Rapports"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Send Mailing"
-msgstr "Enviar Correos"
+msgstr "Envoyer un Courrier"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Events"
-msgstr "Eventos"
+msgstr "Evénements"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Organize Event"
-msgstr "Organizar Evento"
+msgstr "Organiser un Evénement"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "All Events"
-msgstr "Todos los Eventos"
+msgstr "Tout les Evénements"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Search Participants"
-msgstr "Buscar Participantes"
+msgstr "Chercher des Participants"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Register Participant"
-msgstr "Registrar Participantes"
+msgstr "Enregistrer des Participants"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Schedule Reminder"
-msgstr "Recordatorio de Horario"
+msgstr "Planifier un Rappel"
 
-#: ndicivimp.php
+#: demtools.php
 msgid "Recently Added"
-msgstr "Agregados Recientemente"
+msgstr "Récemment Ajouté"

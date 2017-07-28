@@ -13,31 +13,31 @@ msgstr ""
 "Language: ru_RU\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "NDI CiviCRM County-State Permissions"
 msgstr "NDI CiviCRM графства государственные права"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "view all contacts who live in your county"
 msgstr "просмотреть все контакты, которые живут в вашем округе"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "edit all contacts who live in your county"
 msgstr "редактировать все контакты, которые живут в вашем округе"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "delete all contacts who live in your county"
 msgstr "удалить все контакты, которые живут в вашем округе"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "view all contacts who live in your state"
 msgstr "просмотреть все контакты, которые живут в вашем государстве"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "edit all contacts who live in your state"
 msgstr "редактировать все контакты, которые живут в вашем государстве"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "delete all contacts who live in your state"
 msgstr "удалить все контакты, которые живут в вашем государстве"
 
@@ -45,54 +45,54 @@ msgstr "удалить все контакты, которые живут в в�
 msgid "New Contacts by Month"
 msgstr "Новые Контакты по месяцам"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Contacts"
 msgstr "связи"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Create New Individual"
 msgstr "Создать новые индивидуальные"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Browse Contacts"
 msgstr "Обзор Контакты"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Manage Groups"
 msgstr "Управление группами"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "View All Reports"
 msgstr "Все отчеты"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Send Mailing"
 msgstr "Отправить пересылая"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Events"
 msgstr "событий"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Organize Event"
 msgstr "Организация событие"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "All Events"
 msgstr "Все события"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Search Participants"
 msgstr "Поиск Участники"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Register Participant"
 msgstr "Регистрация Участника"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Schedule Reminder"
 msgstr "Расписание Напоминание"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Recently Added"
 msgstr "Недавно добавленные"

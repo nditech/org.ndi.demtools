@@ -2,7 +2,7 @@
 <menu>
   <item>
     <path>civicrm/dashlets/contactpermonth</path>
-    <page_callback>CRM_Ndicivimp_Page_ContactPerMonth</page_callback>
+    <page_callback>CRM_DemTools_Page_ContactPerMonth</page_callback>
     <title>ContactPerMonth</title>
     <access_arguments>access CiviCRM</access_arguments>
   </item>

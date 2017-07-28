@@ -14,31 +14,31 @@ msgstr ""
 "Language: uk_UA\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "NDI CiviCRM County-State Permissions"
 msgstr "Дозволи \"район-область\" системи CiviCRM НДІ"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "view all contacts who live in your county"
 msgstr "Переглянути всі контакти, які живуть у вашому районі"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "edit all contacts who live in your county"
 msgstr "Редагувати всі контакти, які живуть у вашому районі"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "delete all contacts who live in your county"
 msgstr "Видалити всі контакти, які живуть у вашому районі"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "view all contacts who live in your state"
 msgstr "Переглянути всі контакти, які живуть у вашій області"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "edit all contacts who live in your state"
 msgstr "Редагувати всі контакти, які живуть у вашій області"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "delete all contacts who live in your state"
 msgstr "Видалити всі контакти, які живуть у вашій області"
 
@@ -46,54 +46,54 @@ msgstr "Видалити всі контакти, які живуть у ваш�
 msgid "New Contacts by Month"
 msgstr "Нові контакти за місяць"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Contacts"
 msgstr "Контакти"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Create New Individual"
 msgstr "Нова фізична особа"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Browse Contacts"
 msgstr "Переглянути усі контакти"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Manage Groups"
 msgstr "Керування групами"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "View All Reports"
 msgstr "Усі звіти"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Send Mailing"
 msgstr "Створити нову поштову розсилку"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Events"
 msgstr "Події"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Organize Event"
 msgstr "Нова подія"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "All Events"
 msgstr "Усі події"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Search Participants"
 msgstr "Знайти учасників"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Register Participant"
 msgstr "Зареєструвати учасника"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Schedule Reminder"
 msgstr "Запланувати нагадування"
 
-#: ndiciviparty.php
+#: demtools.php
 msgid "Recently Added"
 msgstr "Додані нещодавно"
