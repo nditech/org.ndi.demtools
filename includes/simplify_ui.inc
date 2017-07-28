@@ -20,6 +20,25 @@ define('DEFAULT_CIVICRM_COMPONENTS', array(
   'CiviReport',
 ));
 
+/**
+ * Shim pending server upgrades.
+ */
+function _demtools_get_default_civicrm_components() {
+  // @TODO: Remove this once we're no longer running any servers with PHP 5.5.
+  if (version_compare(phpversion(), '5.6', '<')) {
+    return array(
+      'CiviCase',
+      'CiviContribute',
+      'CiviEvent',
+      'CiviMail',
+      'CiviMember',
+      'CiviPledge',
+      'CiviReport',
+    );
+  }
+  return DEFAULT_CIVICRM_COMPONENTS;
+}
+
 // A reduced list of components that we use with DemTools to simplify the UI.
 define('DEMTOOLS_CIVICRM_COMPONENTS', array(
   'CiviCase',
@@ -27,6 +46,22 @@ define('DEMTOOLS_CIVICRM_COMPONENTS', array(
   'CiviMail',
   'CiviReport',
 ));
+
+/**
+ * Shim pending server upgrades.
+ */
+function _demtools_get_demtools_civicrm_components() {
+  // @TODO: Remove this once we're no longer running any servers with PHP 5.5.
+  if (version_compare(phpversion(), '5.6', '<')) {
+    return array(
+      'CiviCase',
+      'CiviEvent',
+      'CiviMail',
+      'CiviReport',
+    );
+  }
+  return DEMTOOLS_CIVICRM_COMPONENTS;
+}
 
 // A list of menu items to deactivate for DemTools to simplify UI. We
 // reactivate this same list when uninstalling the DemTools extension.
@@ -42,6 +77,28 @@ define('DEFAULT_CIVICRM_MENU_ITEMS', array(
   '62', //Events -> new price set
   '63', //Events -> manage price set
 ));
+
+/**
+ * Shim pending server upgrades.
+ */
+function _demtools_get_default_civicrm_menu_items() {
+  // @TODO: Remove this once we're no longer running any servers with PHP 5.5.
+  if (version_compare(phpversion(), '5.6', '<')) {
+    return array(
+      '5',  //Search -> Full-text Search
+      '6',  //Search -> Search Builder
+      '9',  //Search -> Find Mailings
+      '11', //Search -> Find Participants
+      '13', //Search -> Find Activites
+      '14', //Search -> custom searches
+      '17', //Contacts -> new Household
+      '60', //Event -> Personal Campaign Pages
+      '62', //Events -> new price set
+      '63', //Events -> manage price set
+    );
+  }
+  return DEFAULT_CIVICRM_MENU_ITEMS;
+}
 
 /**
  * Set visibility for a list of menu items.

@@ -124,8 +124,10 @@ function demtools_civicrm_xmlMenu(&$files) {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_enable
  */
 function demtools_civicrm_enable() {
-  _demtools_enable_only_components(DEMTOOLS_CIVICRM_COMPONENTS);
-  _demtools_set_menu_item_visibility(DEFAULT_CIVICRM_MENU_ITEMS, FALSE);
+  #_demtools_enable_only_components(DEMTOOLS_CIVICRM_COMPONENTS);
+  _demtools_enable_only_components(_demtools_get_demtools_civicrm_components());
+  #_demtools_set_menu_item_visibility(DEFAULT_CIVICRM_MENU_ITEMS, FALSE);
+  _demtools_set_menu_item_visibility(_demtools_get_default_civicrm_menu_items(), FALSE);
   return _demtools_civix_civicrm_enable();
 }
 
@@ -135,8 +137,10 @@ function demtools_civicrm_enable() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_disable
  */
 function demtools_civicrm_disable() {
-  _demtools_enable_only_components(DEFAULT_CIVICRM_COMPONENTS);
-  _demtools_set_menu_item_visibility(DEFAULT_CIVICRM_MENU_ITEMS, TRUE);
+  #_demtools_enable_only_components(DEFAULT_CIVICRM_COMPONENTS);
+  _demtools_enable_only_components(_demtools_get_default_civicrm_components());
+  #_demtools_set_menu_item_visibility(DEFAULT_CIVICRM_MENU_ITEMS, TRUE);
+  _demtools_set_menu_item_visibility(_demtools_get_default_civicrm_menu_items(), TRUE);
   return _demtools_civix_civicrm_disable();
 }
 
