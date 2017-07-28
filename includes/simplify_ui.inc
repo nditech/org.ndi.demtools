@@ -94,7 +94,7 @@ function _demtools_get_default_civicrm_menu_items() {
 /**
  * Set visibility for a list of menu items.
  */
-function _demtools_set_menu_item_visibility(array $menu_items, boolean $visible) {
+function _demtools_set_menu_item_visibility(array $menu_items, $visible) {
   $active = (int) $visible;
   foreach ($menu_items as $menu_item) {
     CRM_Core_DAO::executeQuery("UPDATE civicrm_navigation SET is_active = {$active} WHERE id = {$menu_item}");
