@@ -33,3 +33,19 @@ To install from an AMI image, follow the link above and select the AMI for the r
 ### Installing NDI Civi Extension
 
 ### Additional Modules
+
+##### Extensions: 
+[](https://github.com/nditech/uk.org.futurefirst.networks.civipoints)
+[](https://github.com/nditech/org.ndi.contactnumbers)
+[SMS-Telerivet](https://github.com/nditech/org.ndi.sms.telerivet)
+[](https://github.com/nditech/io.3sd.chainedsms)
+
+##### Location Modules
+These modules include location data for specific countries and regions:
+
+[Nigeria States](https://github.com/nditech/org.ndi.nigeriastates)
+[Kenya Constituencies](https://github.com/nditech/org.ndi.kenyaconstituencies)
+[Nigeria Local Government Areas](https://github.com/nditech/org.ndi.nigerialgas)
+[Liberia Counties](https://github.com/nditech/org.ndi.liberiacounties)
+[Kenya States](https://github.com/nditech/org.ndi.kenyastates)
+
