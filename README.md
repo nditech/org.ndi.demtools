@@ -20,7 +20,13 @@ The Civi DemTool is based on the open-source [CiviCRM](https://civicrm.org/) con
 
 ### Installing CiviCRM
 
+There are several ways to install CiviCRM. Some of them can be found here. NDI uses Drupal as its preferred Content Management System (CMS) for hosting CiviCRM (a full list of CiviCRM-compatible CMS's can be found [here](https://docs.civicrm.org/sysadmin/en/latest/planning/cms/)). Specifically, NDI uses [Aegir](http://www.aegirproject.org/) as a multi-hosting solution for Drupal sites that provides an easy interface for creating additional Civi sites. The instructions below detail the most straightforward way to install CiviCRM using Drupal, or alternatively from an image on AWS for users who use this service.
+
 #### Installing from AWS AMI
+
+If you use Amazon Web Services (AWS), a prebuilt version of Civi can be found [here](https://bitnami.com/stack/civicrm/cloud/aws/amis). These images contain an already installed version of CiviCRM ready for deployment on an Amazon EC2 server. If you use this solution, you can skip the section labeled *Installing using Drupal*.
+
+To install from an AMI image, follow the link above and select the AMI for the region you want to host in. Clicking on the AMI link will take you to the instance deployment page. It is recommended to use at least a t2.small server size.
 
 #### Installing using Drupal
 
