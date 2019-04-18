@@ -32,7 +32,9 @@ To install from an AMI image, follow the link above and select the AMI for the r
 
 ### Installing NDI Civi Extension
 
-### Additional Modules
+### Additional Extensions
+
+Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply substitute in the repository url and folder name for the extension you are installing.
 
 ##### Extensions: 
 [](https://github.com/nditech/uk.org.futurefirst.networks.civipoints)
@@ -40,12 +42,21 @@ To install from an AMI image, follow the link above and select the AMI for the r
 [SMS-Telerivet](https://github.com/nditech/org.ndi.sms.telerivet)
 [](https://github.com/nditech/io.3sd.chainedsms)
 
-##### Location Modules
-These modules include location data for specific countries and regions:
+##### Location Extensions
+These extensions include the location layer information various countries:
 
-[Nigeria States](https://github.com/nditech/org.ndi.nigeriastates)
-[Kenya Constituencies](https://github.com/nditech/org.ndi.kenyaconstituencies)
-[Nigeria Local Government Areas](https://github.com/nditech/org.ndi.nigerialgas)
-[Liberia Counties](https://github.com/nditech/org.ndi.liberiacounties)
-[Kenya States](https://github.com/nditech/org.ndi.kenyastates)
-
+* [Kenya Constituencies](https://github.com/nditech/org.ndi.kenyaconstituencies)
+* [Kenya States](https://github.com/nditech/org.ndi.kenyastates)
+* [Liberia Counties](https://github.com/nditech/org.ndi.liberiacounties)
+* [Liberia States](https://github.com/nditech/org.ndi.liberiastates)
+* [Macedonia Provinces](https://github.com/nditech/org.ndi.macedoniaprovinces)
+* [Malawi Constituencies](https://github.com/nditech/org.ndi.malawiconstituencies)
+* [Malawi Districts](https://github.com/nditech/org.ndi.malawidistricts)
+* [Moldova States](https://github.com/nditech/org.ndi.moldovarayons)
+* [Morocco Communes](https://github.com/nditech/org.ndi.moroccocommunes)
+* [Morocco Provinces](https://github.com/nditech/org.ndi.moroccoprovinces)
+* [Nigeria Local Government Areas](https://github.com/nditech/org.ndi.nigerialgas)
+* [Nigeria States](https://github.com/nditech/org.ndi.nigeriastates)
+* [Serbia Municipalities](https://github.com/nditech/org.ndi.serbiamunicipalities)
+* [Serbia Counties](https://github.com/nditech/org.ndi.serbiacounties)
+* [Ukraine Counties](https://github.com/nditech/ukrainerayons)
