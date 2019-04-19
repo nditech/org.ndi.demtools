@@ -30,17 +30,56 @@ To install from an AMI image, follow the link above and select the AMI for the r
 
 #### Installing using Drupal
 
+NDI installs Civi using Drupal as a CMS. For the lastest Drupal install instructions, see [here](https://www.drupal.org/docs/7/modules/features/getting-started).
+
+Once Drupal is installed, follow the steps [here](https://docs.civicrm.org/sysadmin/en/latest/install/drupal7/) to install CiviCRM.
+
 ### Installing NDI Civi Extension
+
+Once CiviCRM is installed, go where the application has been installed and go into the directory `civicrm/ext`. This directory is where all extensions will be located. To add an extension, simply clone a copy of the extension inside this folder. So, to install the NDI Civi extension, copy this repository into the folder using `git clone https://github.com/nditech/org.ndi.demtools.git`. When you log in to Civi, the NDI Civi Extension should now appear.
 
 ### Additional Extensions
 
-Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply substitute in the repository url and folder name for the extension you are installing.
+Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url and folder name for the extension you are installing.
 
-##### Extensions: 
+
+##### Recommended Extensions: 
+While the above process enables the NDI Civi extension, we recommend adding the following extensions for a full Civi experience:
+
+Chatbot
+Chatbot CiviRules Integration
+SMS Conversation
+Translation Helper
+CiviRules
+Angular Profiles
+API v4
+Contact Layout Editor
+Doctor When
+FlexMailer
+CiviCRM Bootstrap Theme
+[Contact Numbers](https://github.com/nditech/org.ndi.contactnumbers)
+Custom Field Value Permissioning
+[Telerivet SMS Integration](https://github.com/nditech/org.ndi.sms.telerivet)
+[Mosaico](https://github.com/veda-consulting/uk.co.vedaconsulting.mosaico)
+
 [](https://github.com/nditech/uk.org.futurefirst.networks.civipoints)
-[](https://github.com/nditech/org.ndi.contactnumbers)
-[SMS-Telerivet](https://github.com/nditech/org.ndi.sms.telerivet)
 [](https://github.com/nditech/io.3sd.chainedsms)
+
+
+#### Other Extensions To Consider:
+In addition to the extensions above, listed below are other extensions you can consider installing to extend Civi's functionality.
+
+Mandrill Transactional Emails
+CiviCRM Export to Excel
+SparkPost Integration
+Event Calendar
+SYSTOPIA Birthdays
+Civisualize
+Send Event Conf
+CiviVolunteer
+General Data Protection Regulation
+MailChimp
+CiviPoints
 
 ##### Location Extensions
 These extensions include the location layer information various countries:
