@@ -46,22 +46,22 @@ Below are additional Civi extensions that can be installed to add additional fun
 ##### Recommended Extensions: 
 While the above process enables the NDI Civi extension, we recommend adding the following extensions for a full Civi experience:
 
-[Chatbot](https://github.com/nditech/civicrm-messenger-extension.git)
-Chatbot CiviRules Integration
-[SMS Conversation](https://github.com/3sd/civicrm-sms-conversation.git)
-[Translation Helper](https://github.com/coopsymbiotic/coop.symbiotic.translationhelper/)
-CiviRules
-[Angular Profiles](https://github.com/ginkgostreet/org.civicrm.angularprofiles)
-API v4
-[Contact Layout Editor](https://github.com/civicrm/org.civicrm.contactlayout.git)
-[Doctor When](https://github.com/civicrm/org.civicrm.doctorwhen)
-[FlexMailer](https://github.com/civicrm/org.civicrm.flexmailer/)
-CiviCRM Bootstrap Theme
-[Contact Numbers](https://github.com/nditech/org.ndi.contactnumbers)
-Custom Field Value Permissioning
-[Telerivet SMS Integration](https://github.com/nditech/org.ndi.sms.telerivet)
-[Mosaico](https://github.com/veda-consulting/uk.co.vedaconsulting.mosaico)
-[Shoreditch](https://github.com/civicrm/org.civicrm.shoreditch)
+* [Chatbot](https://github.com/nditech/civicrm-messenger-extension.git)
+* Chatbot CiviRules Integration
+* [SMS Conversation](https://github.com/3sd/civicrm-sms-conversation.git)
+* [Translation Helper](https://github.com/coopsymbiotic/coop.symbiotic.translationhelper/)
+* CiviRules
+* [Angular Profiles](https://github.com/ginkgostreet/org.civicrm.angularprofiles)
+* API v4
+* [Contact Layout Editor](https://github.com/civicrm/org.civicrm.contactlayout.git)
+* [Doctor When](https://github.com/civicrm/org.civicrm.doctorwhen)
+* [FlexMailer](https://github.com/civicrm/org.civicrm.flexmailer/)
+* CiviCRM Bootstrap Theme
+* [Contact Numbers](https://github.com/nditech/org.ndi.contactnumbers)
+* Custom Field Value Permissioning
+* [Telerivet SMS Integration](https://github.com/nditech/org.ndi.sms.telerivet)
+* [Mosaico](https://github.com/veda-consulting/uk.co.vedaconsulting.mosaico)
+* [Shoreditch](https://github.com/civicrm/org.civicrm.shoreditch)
 
 [](https://github.com/nditech/uk.org.futurefirst.networks.civipoints)
 [](https://github.com/nditech/io.3sd.chainedsms)
@@ -70,17 +70,17 @@ Custom Field Value Permissioning
 #### Other Extensions To Consider:
 In addition to the extensions above, listed below are other extensions you can consider installing to extend Civi's functionality.
 
-[Mandrill Transactional Emails](https://github.com/JMAConsulting/biz.jmaconsulting.mte)
-[CiviCRM Export to Excel](https://lab.civicrm.org/extensions/civiexportexcel.git)
-[SparkPost Integration](https://github.com/proexchange/com.pesc.sparkpost)
-[Event Calendar](https://github.com/osseed/com.osseed.eventcalendar.git)
-[SYSTOPIA Birthdays](https://github.com/systopia/de.systopia.birthdays.git)
-[Civisualize](https://github.com/TechToThePeople/civisualize.git)
-[Send Event Conf](https://lab.civicrm.org/extensions/sendgrid.git)
-[CiviVolunteer](https://github.com/civicrm/org.civicrm.volunteer)
-[General Data Protection Regulation](https://github.com/veda-consulting/uk.co.vedaconsulting.gdpr.git)
-[MailChimp](https://github.com/veda-consulting/uk.co.vedaconsulting.mailchimp.git)
-[CiviPoints](https://github.com/futurefirst/uk.org.futurefirst.networks.civipoints.git)
+* [Mandrill Transactional Emails](https://github.com/JMAConsulting/biz.jmaconsulting.mte)
+* [CiviCRM Export to Excel](https://lab.civicrm.org/extensions/civiexportexcel.git)
+* [SparkPost Integration](https://github.com/proexchange/com.pesc.sparkpost)
+* [Event Calendar](https://github.com/osseed/com.osseed.eventcalendar.git)
+* [SYSTOPIA Birthdays](https://github.com/systopia/de.systopia.birthdays.git)
+* [Civisualize](https://github.com/TechToThePeople/civisualize.git)
+* [Send Event Conf](https://lab.civicrm.org/extensions/sendgrid.git)
+* [CiviVolunteer](https://github.com/civicrm/org.civicrm.volunteer)
+* [General Data Protection Regulation](https://github.com/veda-consulting/uk.co.vedaconsulting.gdpr.git)
+* [MailChimp](https://github.com/veda-consulting/uk.co.vedaconsulting.mailchimp.git)
+* [CiviPoints](https://github.com/futurefirst/uk.org.futurefirst.networks.civipoints.git)
 
 ##### Location Extensions
 These extensions include the location layer information various countries:
