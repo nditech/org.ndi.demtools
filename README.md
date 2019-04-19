@@ -26,7 +26,7 @@ There are several ways to install CiviCRM. Some of them can be found here. NDI u
 
 If you use Amazon Web Services (AWS), a prebuilt version of Civi can be found [here](https://bitnami.com/stack/civicrm/cloud/aws/amis). These images contain an already installed version of CiviCRM ready for deployment on an Amazon EC2 server. If you use this solution, you can skip the section labeled *Installing using Drupal*.
 
-To install from an AMI image, follow the link above and select the AMI for the region you want to host in. Clicking on the AMI link will take you to the instance deployment page. It is recommended to use at least a t2.small server size.
+To install from an AMI image, follow the link above and select the AMI for the region you want to host in. Clicking on the AMI link will take you to the instance deployment page. Your server size will depend on the amount of usage you expect on your site. A test site can run on a t2.micro. To access the site, go to the public ip generated for the EC2 instance. The username by default is 'user', and the password can be found by right-clicking on the instance and going to 'Instance Settings' > 'Get System Log'.
 
 #### Installing using Drupal
 
@@ -40,27 +40,28 @@ Once CiviCRM is installed, go where the application has been installed and go in
 
 ### Additional Extensions
 
-Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url and folder name for the extension you are installing.
+Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url for the extension you are installing.
 
 
 ##### Recommended Extensions: 
 While the above process enables the NDI Civi extension, we recommend adding the following extensions for a full Civi experience:
 
-Chatbot
+[Chatbot](https://github.com/nditech/civicrm-messenger-extension.git)
 Chatbot CiviRules Integration
-SMS Conversation
-Translation Helper
+[SMS Conversation](https://github.com/3sd/civicrm-sms-conversation.git)
+[Translation Helper](https://github.com/coopsymbiotic/coop.symbiotic.translationhelper/)
 CiviRules
-Angular Profiles
+[Angular Profiles](https://github.com/ginkgostreet/org.civicrm.angularprofiles)
 API v4
-Contact Layout Editor
-Doctor When
-FlexMailer
+[Contact Layout Editor](https://github.com/civicrm/org.civicrm.contactlayout.git)
+[Doctor When](https://github.com/civicrm/org.civicrm.doctorwhen)
+[FlexMailer](https://github.com/civicrm/org.civicrm.flexmailer/)
 CiviCRM Bootstrap Theme
 [Contact Numbers](https://github.com/nditech/org.ndi.contactnumbers)
 Custom Field Value Permissioning
 [Telerivet SMS Integration](https://github.com/nditech/org.ndi.sms.telerivet)
 [Mosaico](https://github.com/veda-consulting/uk.co.vedaconsulting.mosaico)
+[Shoreditch](https://github.com/civicrm/org.civicrm.shoreditch)
 
 [](https://github.com/nditech/uk.org.futurefirst.networks.civipoints)
 [](https://github.com/nditech/io.3sd.chainedsms)
@@ -69,17 +70,17 @@ Custom Field Value Permissioning
 #### Other Extensions To Consider:
 In addition to the extensions above, listed below are other extensions you can consider installing to extend Civi's functionality.
 
-Mandrill Transactional Emails
-CiviCRM Export to Excel
-SparkPost Integration
-Event Calendar
-SYSTOPIA Birthdays
-Civisualize
-Send Event Conf
-CiviVolunteer
-General Data Protection Regulation
-MailChimp
-CiviPoints
+[Mandrill Transactional Emails](https://github.com/JMAConsulting/biz.jmaconsulting.mte)
+[CiviCRM Export to Excel](https://lab.civicrm.org/extensions/civiexportexcel.git)
+[SparkPost Integration](https://github.com/proexchange/com.pesc.sparkpost)
+[Event Calendar](https://github.com/osseed/com.osseed.eventcalendar.git)
+[SYSTOPIA Birthdays](https://github.com/systopia/de.systopia.birthdays.git)
+[Civisualize](https://github.com/TechToThePeople/civisualize.git)
+[Send Event Conf](https://lab.civicrm.org/extensions/sendgrid.git)
+[CiviVolunteer](https://github.com/civicrm/org.civicrm.volunteer)
+[General Data Protection Regulation](https://github.com/veda-consulting/uk.co.vedaconsulting.gdpr.git)
+[MailChimp](https://github.com/veda-consulting/uk.co.vedaconsulting.mailchimp.git)
+[CiviPoints](https://github.com/futurefirst/uk.org.futurefirst.networks.civipoints.git)
 
 ##### Location Extensions
 These extensions include the location layer information various countries:
