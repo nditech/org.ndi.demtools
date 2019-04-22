@@ -16,7 +16,7 @@
 
 ### Introduction
 
-“The Civi DemTool takes the powerful, popular and well established [CiviCRM](https://civicrm.org/) contact management system, adds some NDI-created custom extensions, and then another set of additional publically contributed extensions to make it easy to use for typical political, civic or governmental groups in the developing world.” Civi enables civic organizations, government officials, and political parties to track, analyze, connect with and respond to the needs of their constituents and members online. This repository contains instructions for installing the basic CiviCRM software, followed by how to install the NDI-specific Civi extension found in this repository. Further Civi extensions that are used by NDI are listed at the bottom.
+The Civi DemTool takes the powerful, popular and well established [CiviCRM](https://civicrm.org/) contact management system, adds some NDI-created custom extensions, and then another set of additional publically contributed extensions to make it easy to use for typical political, civic or governmental groups in the developing world.” Civi enables civic organizations, government officials, and political parties to track, analyze, connect with and respond to the needs of their constituents and members online. This repository contains instructions for installing the basic CiviCRM software, followed by how to install the NDI-specific Civi extension found in this repository. Further Civi extensions that are used by NDI are listed at the bottom.
 
 ### Installing CiviCRM
 
@@ -40,13 +40,11 @@ Once CiviCRM is installed, navigate to where the application has been installed 
 
 Much of the custom functionality NDI provides to adapt Civi to the needs of political partners has been consolidated into one “DemTools CiviCRM” extension. To install the DemTools CiviCRM extension, copy this repository into the civicrm/ext directory by navigating there and then running `git clone https://github.com/nditech/org.ndi.demtools.git`. After doing this, log in to Civi, and go to `https://name-of-your-site/en/civicrm/admin/extensions` to see the extensions present. The “DemTools CiviCRM” should now appear. From here, extensions can be installed to enable, or disabled.
 
-### Additional Extensions
+### Additional Recommended Extensions
 
-Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url for the extension you are installing. 
+There are a wide range of useful community-created CiviCRM extensions that NDI uses to make the system easier to use, adapt for typical political or governmental organizations needs, or add functionality for the developing world. Below are additional Civi extensions that can be installed to add these NDI-recommended capabilities. 
 
-
-##### Recommended Extensions: 
-While the above process enables the NDI Civi extension, we recommend adding the following extensions for a full Civi experience:
+The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url for the extension you are installing.
 
 * [Chatbot](https://github.com/nditech/civicrm-messenger-extension.git)
 * Chatbot CiviRules Integration
@@ -85,7 +83,7 @@ In addition to the extensions above, listed below are other extensions you can c
 * [CiviPoints](https://github.com/futurefirst/uk.org.futurefirst.networks.civipoints.git)
 
 ##### Location Extensions
-These extensions include the location layer information various countries:
+The following country-specific extensions load updated and complete lists of states/provinces and counties for various countries where NDI has supported implementation of Civi. These extensions can be loaded to better allow users in these countries to accurately list the location of their contacts, activities, and events:
 
 * [Kenya Constituencies](https://github.com/nditech/org.ndi.kenyaconstituencies)
 * [Kenya States](https://github.com/nditech/org.ndi.kenyastates)
