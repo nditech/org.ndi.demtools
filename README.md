@@ -16,7 +16,7 @@
 
 ### Introduction
 
-The Civi DemTool is based on the open-source [CiviCRM](https://civicrm.org/) contact management software . Civi enables civic organizations, government officials, and political parties to track, analyze, connect with and respond to the needs of their constituents and members online. This repository contains instructions for installing the basic CiviCRM software, followed by how to install the NDI-specific Civi extension found in this repository. Further Civi extensions that are used by NDI are listed at the bottom.
+“The Civi DemTool takes the powerful, popular and well established [CiviCRM](https://civicrm.org/) contact management system, adds some NDI-created custom extensions, and then another set of additional publically contributed extensions to make it easy to use for typical political, civic or governmental groups in the developing world.” Civi enables civic organizations, government officials, and political parties to track, analyze, connect with and respond to the needs of their constituents and members online. This repository contains instructions for installing the basic CiviCRM software, followed by how to install the NDI-specific Civi extension found in this repository. Further Civi extensions that are used by NDI are listed at the bottom.
 
 ### Installing CiviCRM
 
@@ -34,13 +34,15 @@ NDI installs Civi using Drupal as a CMS. For the lastest Drupal install instruct
 
 Once Drupal is installed, follow the steps [here](https://docs.civicrm.org/sysadmin/en/latest/install/drupal7/) to install CiviCRM.
 
-### Installing NDI Civi Extension
+### Installing DemTools CiviCRM Extension
 
-Once CiviCRM is installed, go where the application has been installed and go into the directory `civicrm/ext`. This directory is where all extensions will be located. To add an extension, simply clone a copy of the extension inside this folder. So, to install the NDI Civi extension, copy this repository into the folder using `git clone https://github.com/nditech/org.ndi.demtools.git`. When you log in to Civi, the NDI Civi Extension should now appear.
+Once CiviCRM is installed, navigate to where the application has been installed and go into the directory `civicrm/ext`. This directory is where all extensions will be located. To add an extension, simply use Git to clone a copy of the extension inside this folder.
+
+Much of the custom functionality NDI provides to adapt Civi to the needs of political partners has been consolidated into one “DemTools CiviCRM” extension. To install the DemTools CiviCRM extension, copy this repository into the civicrm/ext directory by navigating there and then running `git clone https://github.com/nditech/org.ndi.demtools.git`. After doing this, log in to Civi, and go to `https://name-of-your-site/en/civicrm/admin/extensions` to see the extensions present. The “DemTools CiviCRM” should now appear. From here, extensions can be installed to enable, or disabled.
 
 ### Additional Extensions
 
-Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url for the extension you are installing.
+Below are additional Civi extensions that can be installed to add additional functionality. The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url for the extension you are installing. 
 
 
 ##### Recommended Extensions: 
