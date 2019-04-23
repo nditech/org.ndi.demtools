@@ -47,24 +47,19 @@ There are a wide range of useful community-created CiviCRM extensions that NDI u
 The process for installing these will be the same as installing the NDI Civi extension - simply go to `civicrm/ext` and clone the extension, substituting in the repository url for the extension you are installing.
 
 * [Chatbot](https://github.com/nditech/civicrm-messenger-extension.git)
-* Chatbot CiviRules Integration
 * [SMS Conversation](https://github.com/3sd/civicrm-sms-conversation.git)
 * [Translation Helper](https://github.com/coopsymbiotic/coop.symbiotic.translationhelper/)
-* CiviRules
+* [CiviRules](https://docs.civicrm.org/civirules/en/latest/)
 * [Angular Profiles](https://github.com/ginkgostreet/org.civicrm.angularprofiles)
-* API v4
+* [API v4](https://github.com/civicrm/org.civicrm.api4)
 * [Contact Layout Editor](https://github.com/civicrm/org.civicrm.contactlayout.git)
 * [Doctor When](https://github.com/civicrm/org.civicrm.doctorwhen)
 * [FlexMailer](https://github.com/civicrm/org.civicrm.flexmailer/)
-* CiviCRM Bootstrap Theme
 * [Contact Numbers](https://github.com/nditech/org.ndi.contactnumbers)
-* Custom Field Value Permissioning
+* [Custom Field Value Permissioning](https://github.com/aghstrategies/org.ndi.fieldvaluepermission)
 * [Telerivet SMS Integration](https://github.com/nditech/org.ndi.sms.telerivet)
 * [Mosaico](https://github.com/veda-consulting/uk.co.vedaconsulting.mosaico)
 * [Shoreditch](https://github.com/civicrm/org.civicrm.shoreditch)
-
-[](https://github.com/nditech/uk.org.futurefirst.networks.civipoints)
-[](https://github.com/nditech/io.3sd.chainedsms)
 
 
 #### Other Extensions To Consider:
@@ -83,7 +78,7 @@ In addition to the extensions above, listed below are other extensions you can c
 * [CiviPoints](https://github.com/futurefirst/uk.org.futurefirst.networks.civipoints.git)
 
 ##### Location Extensions
-The following country-specific extensions load updated and complete lists of states/provinces and counties for various countries where NDI has supported implementation of Civi. These extensions can be loaded to better allow users in these countries to accurately list the location of their contacts, activities, and events:
+The following country-specific extensions load updated and complete lists of states/provinces and counties for various countries where NDI has supported implementation of Civi. These extensions can be loaded to better allow users in these countries to accurately list the location of their contacts, activities, and events.
 
 * [Kenya Constituencies](https://github.com/nditech/org.ndi.kenyaconstituencies)
 * [Kenya States](https://github.com/nditech/org.ndi.kenyastates)
